@@ -20,13 +20,13 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ hashFiles('cloud/requirements.txt') }}
+          key: pip-v1  # bump when cloud/requirements.txt changes
       - run: pip install -q -r cloud/requirements.txt
       - if: steps.pip.outputs.cache-hit != 'true'
         uses: actions/cache/save@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ hashFiles('cloud/requirements.txt') }}
+          key: pip-v1  # bump when cloud/requirements.txt changes
       - id: kok
         uses: actions/cache/restore@v4
         with:
