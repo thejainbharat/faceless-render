@@ -16,9 +16,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-          cache-dependency-path: cloud/requirements.txt
+      - id: pip
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('cloud/requirements.txt') }}
       - run: pip install -q -r cloud/requirements.txt
+      - if: steps.pip.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('cloud/requirements.txt') }}
       - id: kok
         uses: actions/cache/restore@v4
         with:
