@@ -1,0 +1,34 @@
+{
+ "title": "gta6-news-reviews",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.24,
+ "music": "none",
+ "sources": [
+  "see gta6-clips/long-form/GUIDE-SHORTS.md"
+ ],
+ "lines": [
+  {
+   "text": "Critics gave GTA 6 a ninety nine, which is almost a perfect score, but players on Metacritic gave it a three point seven.",
+   "caps": "Critics gave GTA 6 a ninety nine, which is almost a perfect score, but players on Metacritic gave it a three point seven."
+  },
+  {
+   "text": "Part of that was review bombing, with ratings showing up before the game was even out, and those got removed.",
+   "caps": "Part of that was review bombing, with ratings showing up before the game was even out, and those got removed."
+  },
+  {
+   "text": "But on launch day, players also reported crashes, and an early mission that can get you stuck for good.",
+   "caps": "But on launch day, players also reported crashes, and an early mission that can get you stuck for good."
+  },
+  {
+   "text": "Since then the player score has crept back up to about five point three, so the fight is still going.",
+   "caps": "Since then the player score has crept back up to about five point three, so the fight is still going."
+  },
+  {
+   "text": "So, is it a ninety nine or not?",
+   "caps": "So, is it a ninety nine or not?"
+  }
+ ]
+}

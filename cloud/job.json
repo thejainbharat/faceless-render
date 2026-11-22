@@ -1,0 +1,14 @@
+{
+ "name": "gta6-news-reviews",
+ "tag": "prep-gta6-news-reviews-1122-141506",
+ "steps": [
+  "voice",
+  "words"
+ ],
+ "voice": "kokoro",
+ "frames": "",
+ "sheet": "0.5 10",
+ "software_gl": false,
+ "qs": "",
+ "fps": 30
+}
