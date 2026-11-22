@@ -1,0 +1,34 @@
+{
+ "title": "gta6-news-sales",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.24,
+ "music": "none",
+ "sources": [
+  "see gta6-clips/long-form/GUIDE-SHORTS.md"
+ ],
+ "lines": [
+  {
+   "text": "GTA 6 made more money before it even came out than most games make in their whole life.",
+   "caps": "GTA 6 made more money before it even came out than most games make in their whole life."
+  },
+  {
+   "text": "One estimate from Sensor Tower says it sold about seventeen million copies before launch day, which is around one point six five billion dollars.",
+   "caps": "One estimate from Sensor Tower says it sold about seventeen million copies before launch day, which is around one point six five billion dollars."
+  },
+  {
+   "text": "And analysts think it could hit fifty million copies in the very first week.",
+   "caps": "And analysts think it could hit fifty million copies in the very first week."
+  },
+  {
+   "text": "Rockstar has not even shared its own numbers yet, so the real total could be even crazier.",
+   "caps": "Rockstar has not even shared its own numbers yet, so the real total could be even crazier."
+  },
+  {
+   "text": "So, did you buy it on day one?",
+   "caps": "So, did you buy it on day one?"
+  }
+ ]
+}
