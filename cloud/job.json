@@ -1,0 +1,17 @@
+{
+ "name": "colossal-squid-2",
+ "tag": "prep-colossal-squid-2-1127-141503",
+ "steps": [
+  "check",
+  "cues",
+  "mix",
+  "sheet",
+  "frames"
+ ],
+ "voice": "kokoro",
+ "frames": "0.0,0.3,4.2,10.5,12,20,26,31,34,38,42,46,50,56.5,61,70.5,76.5,86,95.5",
+ "sheet": "0.5 10",
+ "software_gl": false,
+ "qs": "",
+ "fps": 30
+}

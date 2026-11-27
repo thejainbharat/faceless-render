@@ -1,0 +1,399 @@
+{
+ "duration": 96.385,
+ "cues": [
+  {
+   "t": 0.05,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 0.3,
+   "type": "bubbles",
+   "dur": 1.8,
+   "gain": 0.25
+  },
+  {
+   "t": 3.28,
+   "type": "whoosh",
+   "gain": 0.5
+  },
+  {
+   "t": 4.64,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 4.79,
+   "type": "pop",
+   "gain": 0.5
+  },
+  {
+   "t": 8.6,
+   "type": "pop",
+   "gain": 0.35
+  },
+  {
+   "t": 9.1,
+   "type": "pop",
+   "gain": 0.35
+  },
+  {
+   "t": 9.6,
+   "type": "pop",
+   "gain": 0.35
+  },
+  {
+   "t": 10.814,
+   "type": "slide",
+   "dur": 2,
+   "gain": 0.3
+  },
+  {
+   "t": 10.964,
+   "type": "pop",
+   "gain": 0.5
+  },
+  {
+   "t": 14.14,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 16.82,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 17.22,
+   "type": "thud",
+   "gain": 0.35
+  },
+  {
+   "t": 18.82,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 20.225,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 21.5,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 23.22,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 24.82,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 26.62,
+   "type": "pop",
+   "gain": 0.55
+  },
+  {
+   "t": 27.858,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 31.54,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 32.12,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 32.42,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 33.12,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 34.994,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 37.76,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 37.86,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 39.46,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 40.98,
+   "type": "pop",
+   "gain": 0.5
+  },
+  {
+   "t": 41.615,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 42.115,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 42.615,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 43.115,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 43.615,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 44.115,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 44.52,
+   "type": "whoosh",
+   "gain": 0.35
+  },
+  {
+   "t": 44.615,
+   "type": "tock",
+   "gain": 0.25
+  },
+  {
+   "t": 46.42,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 48.896,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 52.06,
+   "type": "pop",
+   "gain": 0.5
+  },
+  {
+   "t": 53.84,
+   "type": "whoosh",
+   "gain": 0.35
+  },
+  {
+   "t": 53.94,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 57.48,
+   "type": "pop",
+   "gain": 0.5
+  },
+  {
+   "t": 58.439,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 60.44,
+   "type": "slide",
+   "dur": 1.8,
+   "gain": 0.3
+  },
+  {
+   "t": 61.8,
+   "type": "whoosh",
+   "gain": 0.35
+  },
+  {
+   "t": 62,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 65.038,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 66.98,
+   "type": "zip",
+   "gain": 0.35
+  },
+  {
+   "t": 68.8,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 69.12,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 69.44,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 69.76,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 70.08,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 70.4,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 70.72,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 71.04,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 72.774,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 75.06,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 75.32,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 75.58,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 75.84,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 76.1,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 76.36,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 76.62,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 76.88,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 77.14,
+   "type": "tock",
+   "gain": 0.3
+  },
+  {
+   "t": 78.086,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 79.26,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 81.92,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 83.04,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 84.84,
+   "type": "pop",
+   "gain": 0.45
+  },
+  {
+   "t": 86.263,
+   "type": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "t": 88.62,
+   "type": "slide",
+   "dur": 1.8,
+   "gain": 0.3
+  },
+  {
+   "t": 90.02,
+   "type": "whoosh",
+   "gain": 0.4
+  },
+  {
+   "t": 90.84,
+   "type": "pop",
+   "gain": 0.4
+  },
+  {
+   "t": 94.437,
+   "type": "thud",
+   "gain": 0.5
+  },
+  {
+   "t": 94.95,
+   "type": "pop",
+   "gain": 0.5
+  }
+ ]
+}

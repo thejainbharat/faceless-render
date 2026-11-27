@@ -1,0 +1,56 @@
+name: render
+# Renders one faceless short on GitHub's computers. Starts when send.sh pushes a job/<name> branch.
+# plan: split the film into parts -> render: one machine per part, all at once -> join: glue parts + sound.
+on:
+  push:
+    branches: ['job/**']
+permissions:
+  contents: write
+env:
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      tag: ${{ steps.plan.outputs.tag }}
+      name: ${{ steps.plan.outputs.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: node cloud/plan.mjs >> "$GITHUB_OUTPUT"
+      - name: Make the place the video is delivered to
+        run: gh release view "${{ steps.plan.outputs.tag }}" >/dev/null 2>&1 || gh release create "${{ steps.plan.outputs.tag }}" --target "$GITHUB_SHA" --prerelease --title "${{ steps.plan.outputs.tag }}" --notes "cloud render job"
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: ffmpeg
+        run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
+      - name: Render part ${{ matrix.part.i }} (${{ matrix.part.a }} to ${{ matrix.part.b }} s)
+        run: node cloud/render_part.mjs ${{ matrix.part.i }} ${{ matrix.part.a }} ${{ matrix.part.b }}
+      - name: Hand the part over
+        run: gh release upload "${{ needs.plan.outputs.tag }}" out/part-*.mp4 --clobber
+  join:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TAG: ${{ needs.plan.outputs.tag }}
+      NAME: ${{ needs.plan.outputs.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: ffmpeg
+        run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
+      - name: Join parts and add the sound
+        run: bash cloud/join.sh
