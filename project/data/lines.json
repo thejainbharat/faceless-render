@@ -1,0 +1,73 @@
+{
+ "duration": 59.233,
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "How does a beetle shoot boiling liquid out of its rear without cooking itself?",
+   "start": 0.3,
+   "end": 4.826
+  },
+  {
+   "i": 1,
+   "text": "This is a bombardier beetle, and when something attacks, it blasts an irritating spray right back.",
+   "start": 5.066,
+   "end": 11.317
+  },
+  {
+   "i": 2,
+   "text": "That spray comes out almost at boiling, around one hundred degrees Celsius.",
+   "start": 11.557,
+   "end": 16.295
+  },
+  {
+   "i": 3,
+   "text": "Inside, a pouch stores the ingredients, and a tiny chamber holds special enzymes.",
+   "start": 16.535,
+   "end": 22.051
+  },
+  {
+   "i": 4,
+   "text": "When danger shows up, it lets some into the chamber, and the mix reacts in a burst of heat.",
+   "start": 22.291,
+   "end": 27.873
+  },
+  {
+   "i": 5,
+   "text": "That heat makes steam, and the pressure fires the spray out of its tail.",
+   "start": 28.113,
+   "end": 32.312
+  },
+  {
+   "i": 6,
+   "text": "In 2015, scientists filmed this inside living beetles with X-rays, and here's the twist.",
+   "start": 32.552,
+   "end": 39.585
+  },
+  {
+   "i": 7,
+   "text": "It's not one long squirt. It's hundreds of tiny blasts, up to about five hundred every second.",
+   "start": 39.825,
+   "end": 46.323
+  },
+  {
+   "i": 8,
+   "text": "Scientists think the pulsing lets the chamber cool between blasts, and the chamber walls are extra tough.",
+   "start": 46.563,
+   "end": 52.736
+  },
+  {
+   "i": 9,
+   "text": "So it only makes its boiling weapon at the exact moment it needs it.",
+   "start": 52.976,
+   "end": 56.738
+  },
+  {
+   "i": 10,
+   "text": "Would you dare pick one up?",
+   "start": 56.978,
+   "end": 58.393
+  }
+ ]
+}

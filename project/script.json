@@ -1,0 +1,76 @@
+{
+  "title": "This Beetle Shoots Boiling Spray at Its Attackers",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lead": 0.3,
+  "outro": 0.6,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "MIT News, 30 Apr 2015, 'How bombardier beetles produce their defensive spray': X-ray imaging of living beetles, spray almost at boiling point, made at the moment of use in a reaction chamber, pulsing gives the chamber walls time to cool, rigid reinforced chamber. https://news.mit.edu/2015/how-bombardier-beetles-produce-defensive-spray-0430",
+    "National Geographic, 'How this beetle creates 500 explosions per second in its bum': spray around 100 degrees Celsius, 368 to 735 pulses per second, reservoir of hydrogen peroxide and hydroquinones, reaction chamber with enzymes, pulsing lets the chamber cool. https://www.nationalgeographic.com/science/article/how-this-beetle-creates-500-explosions-per-second-in-its-bum",
+    "NBC News, 'X-rays reveal secrets of bombardier beetle's machine gun bum': up to 500 pulses per second, boiling-hot mixture. https://www.nbcnews.com/science/weird-science/x-rays-reveal-secrets-bombardier-beetles-machine-gun-bum-n351341",
+    "Science Friday, 'How the Bombardier Beetle Packs Its Punch': spray at 212 F (100 C). https://www.sciencefriday.com/articles/picture-of-the-week-bombardier-beetle/",
+    "Arndt, Moore, Lee and Ortiz 2015, Science, 'Mechanistic origins of bombardier beetle explosion-induced defensive spray pulsation', doi 10.1126/science.1261166",
+    "EurekAlert / MIT press release 821988 on the 2015 Science study: reaction chamber, precursors give off intense heat almost to boiling, vapor, pressure expels it in a jet, irritating liquid made at the instant of use, rigid reinforced chamber, pulsing may give the walls time to cool. https://www.eurekalert.org/news-releases/821988"
+  ],
+  "lines": [
+    {
+      "text": "How does a beetle shoot boiling liquid out of its rear without cooking itself?",
+      "caps": "How does a *beetle | shoot *boiling | liquid out of | its *rear | without | *cooking itself"
+    },
+    {
+      "text": "This is a bombardier beetle, and when something attacks, it blasts an irritating spray right back.",
+      "caps": "This is a | *bombardier beetle | and when | something *attacks | it blasts an | *irritating spray | right back"
+    },
+    {
+      "text": "That spray comes out almost at boiling, around one hundred degrees Celsius.",
+      "caps": "That spray | comes out | *almost boiling | around | *one hundred | degrees Celsius"
+    },
+    {
+      "text": "Inside, a pouch stores the ingredients, and a tiny chamber holds special enzymes.",
+      "caps": "Inside | a *pouch | stores the | *ingredients | and a tiny | *chamber | holds special | *enzymes"
+    },
+    {
+      "text": "When danger shows up, it lets some into the chamber, and the mix reacts in a burst of heat.",
+      "caps": "When *danger | shows up | it *lets | some into | the chamber | and the mix | *reacts | in a burst | of *heat"
+    },
+    {
+      "text": "That heat makes steam, and the pressure fires the spray out of its tail.",
+      "caps": "That heat | makes *steam | and the *pressure | fires the spray | out of its *tail"
+    },
+    {
+      "text": "In 2015, scientists filmed this inside living beetles with X-rays, and here's the twist.",
+      "caps": "In *2015 | scientists *filmed this | inside *living | beetles | with *X-rays | and here's | the *twist"
+    },
+    {
+      "text": "It's not one long squirt. It's hundreds of tiny blasts, around five hundred every second.",
+      "caps": "It's not | one long *squirt | It's *hundreds | of tiny blasts | around | *five hundred | every second"
+    },
+    {
+      "text": "Scientists think the pulsing lets the chamber cool between blasts, and the chamber walls are extra tough.",
+      "caps": "Scientists *think | the *pulsing | lets the chamber | *cool | between blasts | and the walls | are extra *tough"
+    },
+    {
+      "text": "So it only makes its boiling weapon at the exact moment it needs it.",
+      "caps": "So it | only *makes | its boiling weapon | at the *exact moment | it needs it"
+    },
+    {
+      "text": "Would you dare pick one up?",
+      "caps": "Would you | *dare | pick one up"
+    }
+  ],
+  "fact_map": {
+    "irritating spray": "MIT, Science Friday",
+    "pouch/reservoir stores reactant": "NatGeo, Science Friday",
+    "enzymes in chamber": "NatGeo, Science Friday",
+    "valve lets droplet into chamber": "MIT/EurekAlert (valve), Science Friday",
+    "reaction gives off heat, vapor, pressure jet": "MIT/EurekAlert, NatGeo, NBC, Science Friday",
+    "about 100 C": "NatGeo, Science Friday, MIT (almost boiling)",
+    "X-ray 2015 living beetles": "MIT, NBC, Science paper",
+    "up to about 500 pulses per second": "NBC (up to 500 per second), NatGeo (368 to 735 per second); narration says around five hundred",
+    "cooling between pulses (a theory)": "MIT, NatGeo (both say it may help protect the chamber)",
+    "tough walls": "MIT (rigid reinforcing), NatGeo (chitin and wax layers), NBC (reinforced)",
+    "made at moment of use": "MIT, Science Friday"
+  }
+}

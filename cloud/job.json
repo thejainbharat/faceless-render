@@ -1,0 +1,19 @@
+{
+ "name": "bombardier-beetle-spray",
+ "tag": "prep-bombardier-beetle-spray-1127-222629",
+ "steps": [
+  "voice",
+  "words",
+  "check",
+  "cues",
+  "mix",
+  "sheet",
+  "frames"
+ ],
+ "voice": "kokoro",
+ "frames": "0.0,0.3,3.0,14.5,21.0,31.5,38.0,45.5,51.0,58.5",
+ "sheet": "0.5 10",
+ "software_gl": false,
+ "qs": "",
+ "fps": 30
+}
