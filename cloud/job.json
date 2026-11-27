@@ -1,0 +1,13 @@
+{
+ "name": "orca-bait-gulls",
+ "tag": "prep-orca-bait-gulls-1127-154158",
+ "steps": [
+  "frames"
+ ],
+ "voice": "kokoro",
+ "frames": "0.3",
+ "sheet": "0.5 10",
+ "software_gl": false,
+ "qs": "",
+ "fps": 30
+}

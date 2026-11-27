@@ -1,0 +1,57 @@
+name: prep
+# Runs the busy prep steps of one faceless short on GitHub's computers: voice, word timing, check, cues, mix,
+# contact sheet, frames. Reads the model caches that warm.yml saves on main (it never saves caches itself). Starts when cloud-render/prep.sh pushes a prep/<name> branch. Results go back as result.tgz.
+on:
+  push:
+    branches: ['prep/**']
+permissions:
+  contents: write
+env:
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: job
+        name: What this job needs
+        run: node cloud/needs.mjs >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        if: steps.job.outputs.py == '1'
+        with:
+          python-version: '3.12'
+      - if: steps.job.outputs.py == '1'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-v1  # bump when cloud/requirements.txt changes
+      - name: Python libraries
+        if: steps.job.outputs.py == '1'
+        run: pip install -q -r cloud/requirements.txt
+      - id: kok
+        if: steps.job.outputs.kokoro == '1'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.faceless-shorts/kokoro
+          key: kokoro-v1.0
+      - id: wh
+        if: steps.job.outputs.whisper == '1'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-en-v1
+      - name: ffmpeg
+        run: command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null)
+      - name: Prep steps
+        run: bash cloud/prep.sh
+      - name: Deliver results
+        if: always()
+        run: |
+          TAG=$(node -p "require('./cloud/job.json').tag")
+          mkdir -p out
+          tar -czf result.tgz -C out .
+          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease --title "$TAG" --notes "prep job" result.tgz

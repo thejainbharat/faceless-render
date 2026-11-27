@@ -1,0 +1,61 @@
+{
+  "title": "Orcas Use Fish as Bait to Catch Seagulls",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lead": 0.3,
+  "outro": 0.6,
+  "gap": 0.24,
+  "music": "bed",
+  "sources": [
+    "Science News, 17 Aug 2005, Susan Milius, 'Getting gull-baiting trick spreads among killer whales': MarineLand, Niagara Falls, Canada, captive orcas; Michael Noonan, Canisius College, watching the park's orcas for their calls; a young male baited gulls first, his younger half brother joined, then two adult females; Noonan calls it cultural transmission; biologist Galef finds cultural spread plausible but not confirmed by experiments; reported at the Animal Behavior Society meeting, not a peer reviewed paper",
+    "LiveScience via NBC News, 3 Feb 2006, Bjorn Carey, 'How killer whales trap gullible gulls': Marineland, Ontario, Canada, captive whales; whale spits fish on the surface, sinks and waits, lunges at the gull with open jaws, repeated again and again; the younger brother copied after a few months; the mother adopted it; soon all the orcas at the facility did it",
+    "Mongabay, 7 Sep 2005, 'Whale uses fish as bait to catch seagulls then shares strategy with fellow orcas': Noonan noticed it by accident while studying orca acoustics at Marineland, Niagara Falls, Ontario (captive orcas); young whale releases regurgitated fish, sinks, surges up when a hungry gull lands on the water; half brother copied within a few months; five whales now do it; Noonan: a tradition forming and spreading the way cultures do in humans",
+    "New Scientist via EurekAlert, 2006, Betsy Mason, killer whales and cultural learning: some researchers argue that many purported cases of cultural transmission can be explained by individuals discovering the skill on their own; Janet Mann (Georgetown) says for gull-baiting it would be hard to argue it is individual learning; Andrew Whiten (St Andrews) calls the observations particularly clear. Together with Science News (Galef: plausible, not confirmed by experiments) this supports 'some scientists are not sure whether the whales copied each other or each worked it out alone'"
+  ],
+  "lines": [
+    {
+      "text": "This killer whale just dropped a fish on purpose, and it is not a mistake.",
+      "caps": "This *killer whale | just *dropped | a fish | on *purpose | and it is | not a *mistake"
+    },
+    {
+      "text": "It happened at Marineland, a park in Canada where orcas live in captivity, and a scientist spotted it by accident while recording their calls.",
+      "caps": "It happened at | *Marineland | a park | in *Canada | where orcas | live in *captivity | and a *scientist | spotted it | by *accident | while *recording | their calls"
+    },
+    {
+      "text": "A young male would spit up a fish onto the surface, then sink down and wait.",
+      "caps": "A *young male | would *spit up | a fish | onto the *surface | then *sink down | and *wait"
+    },
+    {
+      "text": "Soon a hungry seagull spotted the free snack and landed on the water.",
+      "caps": "Soon a | *hungry | seagull | spotted the | *free snack | and *landed | on the water"
+    },
+    {
+      "text": "And the whale shot up from below with its mouth wide open.",
+      "caps": "And the *whale | shot up | from *below | with its mouth | *wide open"
+    },
+    {
+      "text": "He did this again and again. It was a trap.",
+      "caps": "He did this | *again | and *again | It was a | *trap"
+    },
+    {
+      "text": "Here's the twist. A few months later, his little half brother started doing it too.",
+      "caps": "Here's the | *twist | A few *months | later | his little | *half brother | started | *doing it too"
+    },
+    {
+      "text": "Then adult females joined in, until several whales at the park were baiting gulls.",
+      "caps": "Then adult | *females | joined in | until *several | whales | at the park | were *baiting | gulls"
+    },
+    {
+      "text": "The scientist said it was like watching a tradition being born.",
+      "caps": "The *scientist | said it was | like watching | a *tradition | being *born"
+    },
+    {
+      "text": "Some scientists are not sure whether the whales copied each other or each worked it out alone.",
+      "caps": "*Some scientists | are *not sure | whether the whales | *copied each other | or each | worked it out | *alone"
+    },
+    {
+      "text": "So did that young whale invent the trick all by himself? What do you think?",
+      "caps": "So did that | *young whale | *invent | the trick | all by *himself | What do | *you think"
+    }
+  ]
+}
