@@ -1,0 +1,64 @@
+{
+ "title": "Colossal squid chapter 1: The one on the line",
+ "voice": "am_michael",
+ "speed": 1,
+ "lead": 0.25,
+ "outro": 0.5,
+ "gap": 0.3,
+ "music": "bed",
+ "sources": [
+  "Te Papa, \"Colossal squid\" (tepapa.govt.nz/discover-collections/read-watch-play/science/colossal-squid-te-papa/): 2007 capture by San Aspiring, Ross Sea, toothfish at 1,500 m, tangled and dying, 495 kg weighed with ice, about 470 kg estimate, 1925 arm crowns in sperm whale stomach, beaks 38 mm (2003) and up to 49 mm, nine specimens above juvenile size since 1925, biology poorly known.",
+  "Mongabay 2008 (news.mongabay.com/2008/04/photos-researchers-study-largest-squid-ever-captured/) and RNZ 2018: 2007 specimen weight (494 kg / 470 kg), second source for the weight and capture.",
+  "Te Papa, anatomy and \"Hooks and suckers\" blog (blog.tepapa.govt.nz/2008/07/17/hooks-suckers/): tentacle hooks rotate 360 degrees, arm hooks do not, tentacles about 2 m.",
+  "Guinness World Records, \"Largest eye\" and Nilsson et al. 2012, Current Biology (adsabs.harvard.edu/abs/2012CBio...22..683N), plus Scientific American blog \"Giant Eyes Help Colossal Squid Spot Glowing Whales\": largest eyes of any living animal, about 27 to 28 cm on the 2007 specimen, spotting sperm whales from about 120 m.",
+  "Te Papa, shrinkage in the freezer for 14 months.",
+  "National Geographic, \"First ever video shows colossal squid in natural habitat\" (April 2025): 9 March 2025, Falkor (too), ROV SuBastian, about 1,968 ft (600 m), juvenile about a foot long, identified by hooks and chromatophores, adults up to about 7 m, 1925 first specimen from a sperm whale.",
+  "Yahoo/CNN, \"Colossal squid resembles a glass sculpture\" (April 2025) and NPR (15 April 2025): near South Sandwich Islands, about 30 cm, largely transparent, Bolstad and Evans verified, adults to 7 m and about 500 kg, most specimens from dead animals."
+ ],
+ "lines": [
+  {
+   "text": "In February 2007, a fishing boat in Antarctica pulled up a fish, and something huge was holding on to it.",
+   "caps": "In February 2007, | a fishing boat | in Antarctica pulled | up a fish, | and something huge | was holding on | to it."
+  },
+  {
+   "text": "It was a squid. And the question that followed was simple: what on earth is this, and why has nobody ever seen one alive?",
+   "caps": "It was a | squid. And the | question that followed | was simple: what | on earth is | this, and why | has nobody ever | seen one alive?"
+  },
+  {
+   "text": "The boat was called the San Aspiring, and it was fishing for Antarctic toothfish in the Ross Sea.",
+   "caps": "The boat was | called the San | Aspiring, and it | was fishing for | Antarctic toothfish in | the Ross Sea."
+  },
+  {
+   "text": "A squid had grabbed a toothfish on the line, about fifteen hundred meters down, and the two came up together.",
+   "caps": "A squid had | grabbed a toothfish | on the line, | about fifteen hundred | meters down, and | the two came | up together."
+  },
+  {
+   "text": "By the time it reached the surface the squid was tangled in the line and dying, so the crew hauled it on board.",
+   "caps": "By the time | it reached the | surface the squid | was tangled in | the line and | dying, so the | crew hauled it | on board."
+  },
+  {
+   "text": "They weighed it at about four hundred and ninety five kilos. That number includes ice that was still on it, and scientists later put the real weight nearer four hundred and seventy.",
+   "caps": "They weighed it | at about four | hundred and ninety | five kilos. That | number includes ice | that was still | on it, and | scientists later put | the real weight | nearer four hundred | and seventy."
+  },
+  {
+   "text": "That is close to half a tonne of squid.",
+   "caps": "That is close | to half a | tonne of squid."
+  },
+  {
+   "text": "Picture that animal, hanging on a fishing line, a kilometer and a half below the waves, and then coming up into the light of a boat deck.",
+   "caps": "Picture that animal, | hanging on a | fishing line, a | kilometer and a | half below the | waves, and then | coming up into | the light of | a boat deck."
+  },
+  {
+   "text": "The crew had pulled up a colossal squid, one of the biggest invertebrates known, and almost nobody had ever seen a whole one.",
+   "caps": "The crew had | pulled up a | colossal squid, one | of the biggest | invertebrates known, and | almost nobody had | ever seen a | whole one."
+  },
+  {
+   "text": "So how did science even know this animal existed?",
+   "caps": "So how did | science even know | this animal existed?"
+  },
+  {
+   "text": "The answer starts nearly a century earlier, inside the stomach of a whale.",
+   "caps": "The answer starts | nearly a century | earlier, inside the | stomach of a | whale."
+  }
+ ]
+}
