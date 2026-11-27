@@ -1,0 +1,17 @@
+{
+ "name": "leopard-seal-penguins-1",
+ "tag": "prep-leopard-seal-penguins-1-1127-200742",
+ "steps": [
+  "check",
+  "cues",
+  "mix",
+  "sheet",
+  "frames"
+ ],
+ "voice": "kokoro",
+ "frames": "1,4,7",
+ "sheet": "0.5 10",
+ "software_gl": false,
+ "qs": "",
+ "fps": 30
+}

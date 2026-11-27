@@ -1,0 +1,55 @@
+{
+ "title": "Leopard seal chapter 1: The charge",
+ "voice": "am_michael",
+ "speed": 1,
+ "lead": 0.25,
+ "outro": 0.5,
+ "gap": 0.3,
+ "music": "bed",
+ "sources": [
+  "National Geographic, 'How a Leopard Seal Fed Me Penguins' (Paul Nicklen, 11 Mar 2014): nationalgeographic.com/adventure/article/140311-paul-nicklen-leopard-seal-photographer-viral : 2006 National Geographic assignment, female seal, head bigger than a grizzly bear's, took camera and head in her mouth, brought penguins alive then dead, four days, 'useless predator in her ocean'.",
+  "Natural History Museum London, 'Are leopard seals dangerous?': nhm.ac.uk/discover/are-leopard-seals-dangerous.html : up to 3.5 m and 500 kg, 2006 Nicklen encounter with worn-out dead penguins, possibly trying to teach him to hunt, Kirsty Brown 2003, ice edge, keep your distance.",
+  "Down To Earth / The Conversation (Hocking, Evans, Robbins), 'Buffet buddies' (downtoearth.org.in) and Cosmos 'Fierce leopard seals can be unexpected buffet buddies' (cosmosmagazine.com): Polar Biology 2019, South Georgia, Our Planet drone footage, up to 36 seals, taking turns on a king penguin, 'an offer to cooperate' reading of the Nicklen encounter.",
+  "Muir, Barnes and Reid 2006, 'Interactions between humans and leopard seals', Antarctic Science (cambridge.org/core/product/BAF5CBB6EF2469E7058BAEC09AB8B5A2): about 30 years of encounters, mostly curious, ice edge strongest, attacks rare, Brown's seal not seen beforehand, seals can act as predators toward humans.",
+  "National Geographic News, 'Leopard Seal Kills Scientist in Antarctica' (Aug 2003) and Discover Wildlife 'Leopard seal guide': Kirsty Brown, British Antarctic Survey, snorkelling near Rothera, July 2003, thought to be the first recorded human fatality from a leopard seal.",
+  "BMC Ecology 2020 (doi 10.1186/s12898-020-00300-y) on leopard seal spring diet: krill 32 to 38 percent, notothen fish 32 to 37 percent, penguin 24 to 27 percent. Frontiers in Marine Science 2022 (10.3389/fmars.2022.976019): adults and sizes, females about 50 percent larger than males."
+ ],
+ "lines": [
+  {
+   "text": "What would you do if a huge leopard seal swam straight at you with its mouth wide open?",
+   "caps": "What would you do if a | huge leopard seal swam | straight at you with | its mouth wide open?"
+  },
+  {
+   "text": "That is what happened to the photographer Paul Nicklen, in the freezing water of Antarctica, while he was working for National Geographic magazine in two thousand six.",
+   "caps": "That is what happened | to the photographer | Paul Nicklen, in the | freezing water of | Antarctica, while he | was working for | National Geographic | magazine in two | thousand six."
+  },
+  {
+   "text": "The seal was a female, and he says her head was bigger than a grizzly bear's.",
+   "caps": "The seal was a female, | and he says her head | was bigger than a | grizzly bear's."
+  },
+  {
+   "text": "Then she did something he never expected. She took his camera into her mouth, and then his head.",
+   "caps": "Then she did something | he never expected. She | took his camera into | her mouth, and then | his head."
+  },
+  {
+   "text": "And then she let go. She did not hurt him.",
+   "caps": "And then she let go. | She did not hurt him."
+  },
+  {
+   "text": "What came next made even less sense. Over the next four days, she started bringing him penguins.",
+   "caps": "What came next made | even less sense. Over | the next four days, | she started bringing | him penguins."
+  },
+  {
+   "text": "Why would a top predator of the Antarctic try to feed a human?",
+   "caps": "Why would a top | predator of the | Antarctic try to feed | a human?"
+  },
+  {
+   "text": "That is the question for this whole video, and I will give you the honest answer at the end, including the part where nobody is sure.",
+   "caps": "That is the question | for this whole video, | and I will give you | the honest answer at | the end, including the | part where nobody is | sure."
+  },
+  {
+   "text": "But first you need to know what kind of animal this is, because what leopard seals normally do to penguins is not gentle.",
+   "caps": "But first you need to | know what kind of | animal this is, | because what leopard | seals normally do to | penguins is not | gentle."
+  }
+ ]
+}
