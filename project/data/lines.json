@@ -1,0 +1,67 @@
+{
+ "duration": 59.465,
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lines": [
+  {
+   "i": 0,
+   "text": "Which animal can regrow its whole body from one tiny piece?",
+   "start": 0.3,
+   "end": 3.805
+  },
+  {
+   "i": 1,
+   "text": "Here are five animals that regrow what they lose, counting down to the wildest.",
+   "start": 4.045,
+   "end": 9.091
+  },
+  {
+   "i": 2,
+   "text": "Number five, the sea cucumber. When a predator attacks, it can push part of its insides out of its body to scare it off.",
+   "start": 9.331,
+   "end": 16.664
+  },
+  {
+   "i": 3,
+   "text": "Then it grows them back, and in a few weeks it is good as new.",
+   "start": 16.904,
+   "end": 20.352
+  },
+  {
+   "i": 4,
+   "text": "Number four, the zebrafish. Damage its heart, and it grows new heart muscle with barely any scar.",
+   "start": 20.592,
+   "end": 26.866
+  },
+  {
+   "i": 5,
+   "text": "Number three, the axolotl, the smiling salamander. It can regrow a whole lost leg, and even a cut spinal cord.",
+   "start": 27.106,
+   "end": 34.692
+  },
+  {
+   "i": 6,
+   "text": "Number two, the comet sea star. When one arm breaks off, that arm can grow an entire new body.",
+   "start": 34.932,
+   "end": 41.303
+  },
+  {
+   "i": 7,
+   "text": "And number one, the planarian, a tiny flatworm. Cut it into pieces, and the pieces can grow into whole new worms, each with a head and a tail.",
+   "start": 41.543,
+   "end": 50.868
+  },
+  {
+   "i": 8,
+   "text": "Scientists have even rebuilt a whole worm from a single stem cell.",
+   "start": 51.108,
+   "end": 54.917
+  },
+  {
+   "i": 9,
+   "text": "So if you could borrow one of these powers, which would you pick?",
+   "start": 55.157,
+   "end": 58.625
+  }
+ ]
+}

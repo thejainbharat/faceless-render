@@ -1,0 +1,66 @@
+{
+ "title": "5 Animals That Regrow Lost Body Parts",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lead": 0.3,
+ "outro": 0.6,
+ "gap": 0.24,
+ "music": "bed",
+ "sources": [
+  "Whitehead Institute (MIT), 'New tools for old can of worms' and 'Pluripotent adult stem cells power planarian regeneration': planarian neoblasts are adult stem cells that can become essentially all cell types; a slice of the worm can regrow into a complete adult. https://wi.mit.edu/news/new-tools-old-can-worms and https://wi.mit.edu/news/pluripotent-adult-stem-cells-power-planarian-regeneration",
+  "National Geographic Phenomena, 'An entire flatworm regenerated from a single adult cell' (Wagner, Wang and Reddien 2011, Science): one transplanted neoblast rebuilt a whole worm. https://www.nationalgeographic.com/science/phenomena/2011/05/12/an-entire-flatworm-regenerated-from-a-single-adult-cell/",
+  "NPR Health Shots, 18 Nov 2018, 'These flatworms can regrow a body from a fragment'. https://www.npr.org/sections/health-shots/2018/11/06/663612981/these-flatworms-can-regrow-a-body-from-a-fragment",
+  "Marine Biological Laboratory, axolotl: can functionally regenerate limbs, spinal cord and parts of the brain and heart. https://www.mbl.edu/research/research-organisms/axolotl",
+  "Harvard Science in the News (2018), 'Regeneration: what the axolotl can teach us about regrowing human limbs'. https://sitn.hms.harvard.edu/flash/2018/regeneration-axolotl-can-teach-us-regrowing-human-limbs",
+  "Scientific American, 'Regeneration: The axolotl story': the spinal cord can be cut, crushed or have a piece removed and it regenerates. https://www.scientificamerican.com/blog/guest-blog/regeneration-the-axolotl-story/",
+  "Duke Health, 'Zebrafish's regenerative abilities make it a unique tool to study disease': heart muscle regrows. https://corporate.dukehealth.org/news/zebrafishs-regenerative-abilities-make-it-unique-tool-study-disease",
+  "Scientific American, 'Zebrafish mend broken hearts'. https://www.scientificamerican.com/article/zebrafish-mend-broken-hea/",
+  "PMC review of zebrafish heart regeneration: minimal scarring, a clot is replaced by new contractile muscle. https://pmc.ncbi.nlm.nih.gov/articles/PMC3812420",
+  "PBS NOVA, 'Sea Cucumber Evisceration': sea cucumbers expel parts of their insides to defend themselves and regrow them within weeks. https://www.pbs.org/wgbh/nova/nature/sea-cucumbers.html",
+  "University of Texas Marine Science Institute, 'This Cool Cucumber Regrows Itself'. https://utmsi.utexas.edu/science-and-the-sea/print-article/this-cool-cucumber-regrows-itself/",
+  "Florida Museum, 'From the field: in the sea, comets become stars': Linckia sea stars shed an arm with part of the central disc, which lives on as a comet and grows new arms. https://www.floridamuseum.ufl.edu/iz/2012/11/07/from-the-field-in-the-sea-comets-become-stars/",
+  "Western Australian Museum, 'Amazing Sea Stars': Linckia can regrow a complete new disc and a whole sea star from a single arm. https://museum.wa.gov.au/explore/articles/amazing-sea-stars"
+ ],
+ "lines": [
+  {
+   "text": "Which animal can regrow its whole body from one tiny piece?",
+   "caps": "Which *animal | can regrow | its whole *body | from one | tiny *piece"
+  },
+  {
+   "text": "Here are five animals that regrow body parts, counting down to the wildest.",
+   "caps": "Here are | *five animals | that *regrow | body parts | counting down | to the *wildest"
+  },
+  {
+   "text": "Number five, the sea cucumber. When a predator attacks, some can push part of their insides out of their body to defend themselves.",
+   "caps": "Number *five | the sea *cucumber | When a *predator | attacks | some can *push | their *insides | *out | to *defend | themselves"
+  },
+  {
+   "text": "Then they grow them back, in just a few weeks.",
+   "caps": "Then they | *grow them back | in just | a few *weeks"
+  },
+  {
+   "text": "Number four, the zebrafish. Damage its heart, and it grows new heart muscle with barely any scar.",
+   "caps": "Number *four | the *zebrafish | Damage its *heart | and it grows | new *muscle | with barely | any *scar"
+  },
+  {
+   "text": "Number three, the axolotl. It can regrow a whole lost leg, and even a cut spinal cord.",
+   "caps": "Number *three | the *axolotl | It can regrow | a whole lost *leg | and even a | cut *spinal cord"
+  },
+  {
+   "text": "Number two, the comet sea star. When one arm breaks off, it can grow into a whole new sea star.",
+   "caps": "Number *two | the *comet | sea star | When one *arm | breaks off | it can *grow | into a *whole | new sea star"
+  },
+  {
+   "text": "And number one, the planarian, a tiny flatworm. Cut it into pieces, and many of the pieces can grow into whole new worms, with a new head and a new tail.",
+   "caps": "And number *one | the *planarian | a tiny *flatworm | Cut it | into *pieces | and many | of the pieces | can grow into | whole new *worms | with a new *head | and a new *tail"
+  },
+  {
+   "text": "Scientists have even shown that one single stem cell can rebuild a worm whose own stem cells are gone.",
+   "caps": "Scientists | have even *shown | that one *single | *stem cell | can *rebuild | a worm | whose own | *stem cells | are *gone"
+  },
+  {
+   "text": "So which power would you pick?",
+   "caps": "So *which | power | would you | *pick"
+  }
+ ]
+}
