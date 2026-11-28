@@ -1,0 +1,55 @@
+name: nora-warm
+# Lives on the main branch only (as .github/workflows/nora-warm.yml, next to nora/requirements.txt).
+# Builds the Python libraries for Nora's voice (CPU torch + OmniVoice + faster-whisper) and downloads the OmniVoice
+# and Whisper models once, then saves them in GitHub's cache FROM main, because only a cache saved on main can be
+# read by the nora/* job branches. Runs when nora/requirements.txt changes on main, every Monday (keeps the cache
+# from being evicted and follows a new Python patch version), or by hand:
+#   gh workflow run nora-warm.yml -R thejainbharat/faceless-render
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+  push:
+    branches: [main]
+    paths: ['nora/requirements.txt', '.github/workflows/nora-warm.yml']
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HF_HOME: /home/runner/nora-hf
+    steps:
+      - uses: actions/checkout@v4
+      - id: py
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: venv
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/nora-venv
+          key: nora-venv-${{ steps.py.outputs.python-version }}-v1  # bump in nora/nora.yml too when requirements change
+      - if: steps.venv.outputs.cache-hit != 'true'
+        run: python -m venv ~/nora-venv && ~/nora-venv/bin/pip install -q -r nora/requirements.txt && du -sh ~/nora-venv
+      - if: steps.venv.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/nora-venv
+          key: nora-venv-${{ steps.py.outputs.python-version }}-v1
+      - id: models
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/nora-hf
+          key: nora-models-v1
+      - name: Download the models (and prove they load)
+        run: |
+          ~/nora-venv/bin/python -c "
+          import torch; from omnivoice import OmniVoice; from faster_whisper import WhisperModel
+          m = OmniVoice.from_pretrained('k2-fsa/OmniVoice', device_map='cpu', dtype=torch.float32); print('omnivoice ok', m.sampling_rate)
+          WhisperModel('small.en', device='cpu', compute_type='int8'); print('whisper ok')"
+          du -sh ~/nora-hf
+      - if: steps.models.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/nora-hf
+          key: nora-models-v1
